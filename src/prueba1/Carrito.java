@@ -6,7 +6,7 @@ public class Carrito {
 	
 	public Carrito(String[] pedidoP) {
 		this.setPedido(pedidoP);
-		setPrecio(4);
+		setPrecio(5);
 	}
 
 	public double getPrecio() {
