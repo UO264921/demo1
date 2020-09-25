@@ -4,7 +4,6 @@ public class Cliente {
 	private String nombre;
 	private String apellido;
 	private int edad;
-	private double dineroDisponible;
 	
 	public String getNombre() {
 		return nombre;
@@ -30,13 +29,6 @@ public class Cliente {
 		this.edad = edad;
 	}
 
-	public double getDineroDisponible() {
-		return dineroDisponible;
-	}
-
-	public void setDineroDisponible(double dineroDisponible) {
-		this.dineroDisponible = dineroDisponible;
-	}
 
 	public Cliente() {
 		
